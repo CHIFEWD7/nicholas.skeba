@@ -1,3 +1,20 @@
+$(function(){
+  $('TweetAuthor').css('display', 'none !important');
+});
+
+$(function(){
+    $('a.fixedchat').click(function(e) {
+        e.preventDefault();
+        $(this).next('.fixedchatpopup').css('display','block'); 
+    });
+});
+
+$(function(){
+    $('a.xchatclose').click(function(e) {
+        e.preventDefault();
+        $(this).parent('.fixedchatpopup').css('display','none'); 
+    });
+});
 
 
 $(document).ready(function(){
@@ -153,6 +170,9 @@ jQuery(function($) {
 			}
 		}
 	});
+
+
+
 
 	function centerModal() {
 		$(this).css('display', 'block');
