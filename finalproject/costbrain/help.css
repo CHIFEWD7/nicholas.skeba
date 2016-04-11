@@ -1,0 +1,229 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+header{
+    position:fixed;
+    background-color:black;
+  z-index:10;
+    width:100%;
+height:61px;
+}
+body{
+    display:block;
+    width:100%;
+    margin:0px;
+        font-family: 'Roboto', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+a{text-decoration: none;color:inherit!important;}
+.table{display:table;
+width:700px;
+margin:0 auto;
+padding-top: 80px;
+
+}
+
+.black{color:black;}
+.row{
+display:table-row;
+margin-bottom: 30px;
+
+}
+.cell{
+display:table-cell;
+margin-bottom: 30px;
+}
+
+h2{font-size:18px;color:#0b752b;margin-bottom: 4px;}
+
+ul{list-style-type: none;
+     list-style-position:inside;padding-left:0px;margin-bottom: 40px;margin-top: 0px;
+
+}
+
+.fixedchat {
+    position: fixed;
+    bottom: 10px;
+    z-index: 10;
+    right:10px;
+    opacity: .8;
+   
+    width:130px;
+    background-color:#0b752b;
+    color:white!important;
+    border-radius:10px;
+    text-align: center;
+    text-decoration: none;
+  padding-top: 10px;padding-bottom: 10px;padding-left: 26px;
+    font-size:20px;
+}
+
+a.fixedchat:hover {
+opacity: 1;
+}
+ .fixedchatpopup {
+display:none;
+
+    position: fixed;
+    background-color:#eaeaea;
+    height:450px;
+    width:300px;
+    bottom: 6px;
+    z-index: 10;
+    right:6px;
+    border-style: solid;
+    border-color:grey;
+    border-width: 1px;
+
+}
+
+
+
+
+.fixedchattopbar{
+    position:relative;
+width:100%;
+height:26px;
+background-color:white;
+bottom-border:grey;
+bottom-border-width:4px;
+bottom-border-style:solid;
+font-size: 22px;
+color:black;
+padding:10px;
+display:block;
+padding-left:20px;
+}
+.chat {
+    width: 320px;
+}
+.iconimg{
+    z-index: 10px;width:24px;bottom:20px;position: fixed;right:116px;
+}
+
+.bubble{
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    box-shadow: 0 0 6px #B2B2B2;
+    display: inline-block;
+    padding: 10px 18px;
+    position: relative;
+    vertical-align: top;
+}
+
+.bubble::before {
+    background-color: #F2F2F2;
+    content: "\00a0";
+    display: block;
+    height: 16px;
+    position: absolute;
+    top: 11px;
+    transform:             rotate( 29deg ) skew( -35deg );
+        -moz-transform:    rotate( 29deg ) skew( -35deg );
+        -ms-transform:     rotate( 29deg ) skew( -35deg );
+        -o-transform:      rotate( 29deg ) skew( -35deg );
+        -webkit-transform: rotate( 29deg ) skew( -35deg );
+    width:  20px;
+}
+
+.me {
+    float: left;   
+    margin: 5px 45px 5px 20px;         
+}
+
+.me::before {
+    box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );
+    left: -9px;      }     
+
+
+.textspot2 {
+    width:250px;
+    padding: 5px;
+margin-top:0px;
+  border-radius: 5px;
+       box-shadow: 0 0 6px #B2B2B2;
+    background-color: white;
+    height:120px; 
+   
+    }
+    .chatboxstyle{
+        border-radius: 0px;
+       box-shadow: 0 0 6px #B2B2B2;
+       background-color:white;
+       color:black;
+    }
+    .chatmargin{
+        margin-left:24px;
+        color:black;
+    }
+    .chattextblack{
+        color:black;font-size:16px;}
+    .xchatclose{
+        right:4px;
+        top:-8px;
+        font-size: 40px;
+        color:grey;
+        z-index: 10;
+        position: absolute;
+    }
+      .xchatclose:hover{
+        color:black;
+      }
+      .contactbutton{
+        width:100%;
+      }
+
+    .navbar{
+        top:5px;left:8%;position:fixed;
+    }
+    .navmenu{right:100px;position:fixed;top:20px;color:white;}
+
+    .btn {
+    padding:12px;position:relative;bottom:14px;border-radius: 4px;}
+.btn:hover{background-color:#eaeaea; }
+    .blue {
+        background-color:white;margin-left: 40px;color:black;
+    }
+    .whiteback{
+        background-color:#00a8ff;margin-left:20px;color:white;
+    }
+.navbarlist{
+    display:inline-block;float:left;
+}
+.navbarfont{
+    color:#b3b3b3;padding-right:70px;top:10px;
+}
+.navbarfont2{color:#b3b3b3;}
+.navbarfont:hover{text-decoration: underline;}
+.navbarfont2:hover{text-decoration: underline;}
+.navbarclose{
+    top:20px;right:20px;display:none;position:fixed;
+}
+.navbarpopup{
+    background-color:white;width:100%;height:100%;z-index:20;top:0;right:0;position: fixed;display:none;
+}
+.navbarpopupcenter{
+    margin:0 auto;  width:120px; position:relative; top: 10%; font-size:24px;line-height: 60px;text-align: center;
+}
+.navbarpopupcenterlink:hover{
+    background:#00a8ff;color:white;
+}
+.navbarpopupbottom{
+    bottom:0px;left:0px;width:100%;height:60px;background-color:#00a8ff;position:fixed;
+}
+.arrowup{
+    bottom:0px;text-align: center;color:white;font-size:30px;  }
+
+
+
+
+  @media screen and (max-width: 615px) {
+.cell{display:block;
+    }
+.table{
+width:300px;}
+
+
+  }
+ @media screen and (max-width: 950px) {
+.navmenu{display:none;}
+.navbarclose{display:block;}
+
+}
